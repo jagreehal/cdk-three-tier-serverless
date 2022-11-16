@@ -40,7 +40,7 @@ import {
   NOTES_API,
   NOTES_API_RESOURCE,
   NOTES_TABLE,
-} from '../cdk-config';
+} from '../../cdk-config';
 
 export class CdkThreeTierServerlessStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {

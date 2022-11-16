@@ -1,4 +1,4 @@
-import { NoteType } from '../fns/notesTable';
+import { NoteType } from '../backend/fns/notesTable';
 const STACK_NAME = `dev-cdk-three-tier-serverless`;
 let url = '';
 

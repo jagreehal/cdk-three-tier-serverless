@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { NoteType } from '../fns/notesTable';
+import { NoteType } from '../backend/fns/notesTable';
 import { getNotes, saveNote } from './utils';
 
 // Best practice would be to break this component down and maybe do a bit more with state management.

@@ -1,5 +1,5 @@
 import { DynamoDBClient } from '@aws-sdk/client-dynamodb';
-import { NOTES_TABLE } from '../../cdk-config';
+import { NOTES_TABLE } from '../../../cdk-config';
 import { Entity, Table } from 'dynamodb-onetable';
 import Dynamo from 'dynamodb-onetable/Dynamo';
 

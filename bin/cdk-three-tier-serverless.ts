@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import { App } from 'aws-cdk-lib';
-import { CdkThreeTierServerlessStack } from '../lib/cdk-three-tier-serverless-stack';
+import { CdkThreeTierServerlessStack } from '../src/backend/cdk-three-tier-serverless-stack';
 import { STACK_NAME } from '../cdk-config';
 
 const app = new App();
